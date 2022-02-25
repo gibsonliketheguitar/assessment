@@ -20,3 +20,10 @@ image
 - [ ] get material ui ICON
 - [ ] select library for date picker
 - [ ] implement option select list for country
+
+## libraries use
+
+react
+tailwind
+react-hook-form
+yup validation
