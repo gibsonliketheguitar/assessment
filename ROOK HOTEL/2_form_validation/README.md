@@ -9,17 +9,35 @@ image
 
 ## TODO
 
-[ ] Init Config
-[ ] Set up Form with React Form
-[ ] Get the Color and Font, then set
-[ ] Create Input Component
+[x] Init Config
+[x] Set up Form with React Form
 [ ] Import Button Component from other demo repos
 [ ] Set up Validation
-[ ] Implement Data Picker
 
-- [ ] get material ui ICON
+[] Input
+
+- [] handle layout of labels
+- [x] Set border white
+
+[ ] Data Picker
+
+- [x] get material ui ICON
 - [ ] select library for date picker
+
+[ ] Select Option
+
+- [ ] import country list as json
 - [ ] implement option select list for country
+
+[ ] Styling
+
+- [x] Get Color
+- [x] Get Font and Set
+
+[ ] Other
+
+- [x] Update Labels
+- [x] Update place holder for long form text
 
 ## libraries use
 
