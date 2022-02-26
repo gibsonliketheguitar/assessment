@@ -1,7 +1,7 @@
 export function Input({ type, name, label, width = 'w-full', register, ...rest }: any) {
     return (
         <div className={`flex flex-col ${width}`}>
-            <label className="text-white">{label}</label>
+            <label className="text-white text-md lg:text-lg">{label}</label>
             <input
                 type={type}
                 className=" 

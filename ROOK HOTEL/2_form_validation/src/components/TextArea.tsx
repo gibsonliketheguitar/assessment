@@ -1,7 +1,7 @@
 export function TextArea({ type, name, label, placeholder, width = 'w-full', row, column, register, ...rest }: any) {
     return (
         <div className={`flex flex-col ${width}`}>
-            <label className="text-white">{label}</label>
+            <label className="text-white text-md lg:text-lg">{label}</label>
             <textarea
                 className=" 
                         form-control

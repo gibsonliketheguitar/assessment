@@ -2,7 +2,7 @@ export default function Select({ name, label, register, options, width = 'w-full
     console.log(rest)
     return (
         <div className={`flex flex-col ${width}`}>
-            <label className="text-white">{label}</label>
+            <label className="text-white text-md lg:text-lg">{label}</label>
             <select
                 className=" 
                         block
