@@ -1,7 +1,6 @@
-export function TextArea(props: any) {
-    const { type, name, label, placeholder, row, column, register, ...rest } = props
+export function TextArea({ type, name, label, placeholder, width = 'w-full', row, column, register, ...rest }: any) {
     return (
-        <div className="flex flex-col">
+        <div className={`flex flex-col ${width}`}>
             <label className="text-white">{label}</label>
             <textarea
                 className=" 

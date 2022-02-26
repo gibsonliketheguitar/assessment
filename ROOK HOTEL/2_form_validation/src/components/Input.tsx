@@ -1,14 +1,12 @@
-export function Input(props: any) {
-    const { type, name, label, register, ...rest } = props
+export function Input({ type, name, label, width = 'w-full', register, ...rest }: any) {
     return (
-        <div className="flex flex-col">
+        <div className={`flex flex-col ${width}`}>
             <label className="text-white">{label}</label>
             <input
                 type={type}
                 className=" 
                         form-control
                         block
-                        w-full
                         px-3
                         py-1.5
                         text-white

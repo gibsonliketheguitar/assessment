@@ -1,6 +1,7 @@
-export default function Select({ name, label, register, options, ...rest }: any) {
+export default function Select({ name, label, register, options, width = 'w-full', ...rest }: any) {
+    console.log(rest)
     return (
-        <div className="flex flex-col">
+        <div className={`flex flex-col ${width}`}>
             <label className="text-white">{label}</label>
             <select
                 className=" 

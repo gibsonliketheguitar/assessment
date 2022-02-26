@@ -16,27 +16,28 @@ export default function App() {
   console.log(watch("name")); // watch input value by passing the name of it
 
   return (
-    <div className="bg-blue">
-      <Form onSubmit={onSubmit}>
-        <Input type='text' name='name' label='Your full given name:' />
+    <div className="flex justify-center w-full h-screen">
+      <div className="bg-blue w-1/3 p-5">
+        <Form onSubmit={onSubmit} >
+          <Input type='text' name='name' label='Your full given name:' />
 
-        <div className="flex">
-          <Input type='text' name='birthDate' label='Date of Birth' />
-          <Select name="country" label='Country of residence or citizenship' options={countriesName} />
-        </div>
+          <div className="flex items-center space-x-5">
+            <Input type='text' name='birthDate' label='Date of Birth' width='w-2/5' />
+            <Select name="country" label='Country of residence or citizenship' options={countriesName} width={'w-4/5'} />
+          </div>
 
-        <Input type='text' name='school' label='What school do you plan to attend?' />
+          <Input type='text' name='school' label='What school do you plan to attend?' />
 
-        <TextArea
-          name='study'
-          label='Please take a moment to describe your intended area of study'
-          placeholder='Enter details here'
-          row='10'
-          column='20'
-        />
-        <button>Submit</button>
-      </Form>
-
+          <TextArea
+            name='study'
+            label='Please take a moment to describe your intended area of study'
+            placeholder='Enter details here'
+            row='10'
+            column='20'
+          />
+          <button>Submit</button>
+        </Form>
+      </div>
     </div>
   );
 }
