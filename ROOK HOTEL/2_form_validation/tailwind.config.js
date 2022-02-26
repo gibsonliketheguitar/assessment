@@ -6,6 +6,9 @@ module.exports = {
         blue: "#2c79db",
         yellow: "#f7dc08",
       },
+      height: {
+        9.5: "2.375rem",
+      },
     },
   },
   plugins: [],

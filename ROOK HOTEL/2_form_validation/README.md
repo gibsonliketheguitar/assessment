@@ -12,11 +12,11 @@ image
 [x] Init Config
 [x] Set up Form with React Form
 [ ] Import Button Component from other demo repos
-[ ] Set up Validation
+[x] Handle for styling
 
 [] Input
 
-- [] handle layout of labels
+- [ ] handle layout of
 - [x] Set border white
 
 [ ] Data Picker
@@ -26,8 +26,8 @@ image
 
 [ ] Select Option
 
-- [ ] import country list as json
-- [ ] implement option select list for country
+- [x] import country list as json
+- [x] implement option select list for country
 
 [ ] Styling
 

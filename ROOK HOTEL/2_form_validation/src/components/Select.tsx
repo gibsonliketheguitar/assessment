@@ -1,14 +1,14 @@
 export default function Select({ name, label, register, options, ...rest }: any) {
     return (
         <div className="flex flex-col">
-            <label>label</label>
+            <label className="text-white">{label}</label>
             <select
                 className=" 
-                        form-control
                         block
                         w-full
+                        h-9.5
                         px-3
-                        py-1.5
+                        py-1
                         text-white
                         font-normal
                         bg-transparent bg-clip-padding
