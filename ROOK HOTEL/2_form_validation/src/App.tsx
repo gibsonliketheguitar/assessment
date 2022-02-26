@@ -31,8 +31,8 @@ export default function App() {
           name='study'
           label='Please take a moment to describe your intended area of study'
           placeholder='Enter details here'
-          row='100'
-          column='200'
+          row='10'
+          column='20'
         />
         <button>Submit</button>
       </Form>

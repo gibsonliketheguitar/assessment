@@ -22,8 +22,8 @@ export function TextArea(props: any) {
                         m-0
                         focus:text-black focus:bg-white focus:border-yellow focus:outline-none"
                 placeholder={placeholder}
-                row={row}
-                column={column}
+                rows={row}
+                cols={column}
                 {...register(name)}
                 {...rest}
             />
