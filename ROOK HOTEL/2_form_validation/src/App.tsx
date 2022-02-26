@@ -19,9 +19,14 @@ export default function App() {
     <div className="bg-blue">
       <Form onSubmit={onSubmit}>
         <Input type='text' name='name' label='Your full given name:' />
-        <Input type='text' name='birthDate' label='Date of Birth' />
-        <Select name="country" label='Country of residence or citizenship' options={countriesName} />
+
+        <div className="flex">
+          <Input type='text' name='birthDate' label='Date of Birth' />
+          <Select name="country" label='Country of residence or citizenship' options={countriesName} />
+        </div>
+
         <Input type='text' name='school' label='What school do you plan to attend?' />
+
         <TextArea
           name='study'
           label='Please take a moment to describe your intended area of study'
@@ -31,6 +36,7 @@ export default function App() {
         />
         <button>Submit</button>
       </Form>
+
     </div>
   );
 }
