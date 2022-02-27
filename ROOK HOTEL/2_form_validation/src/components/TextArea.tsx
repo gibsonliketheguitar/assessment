@@ -6,6 +6,7 @@ export function TextArea({ type, name, label, placeholder, width = 'w-full', row
                 className=" 
                         form-control
                         placeholder-gray-300
+                        placeholder-text-slate-400
                         placeholder-italic
                         block
                         w-full
@@ -16,7 +17,7 @@ export function TextArea({ type, name, label, placeholder, width = 'w-full', row
                         bg-transparent bg-clip-padding
                         border border-solid border-white
                         rounded-sm
-                        transition
+                        transition-all duration:300 ease-linear
                         ease-in-out
                         m-0
                         focus:text-black focus:bg-white focus:border-yellow focus:outline-none"

@@ -1,13 +1,13 @@
 export default function Select({ name, label, register, options, width = 'w-full', ...rest }: any) {
-    console.log(rest)
     return (
         <div className={`flex flex-col ${width}`}>
             <label className="text-white text-md lg:text-lg">{label}</label>
             <select
+                defaultValue={'Canada'}
                 className=" 
                         block
                         w-full
-                        h-9.5
+                        h-10
                         px-3
                         py-1
                         text-white
@@ -15,7 +15,7 @@ export default function Select({ name, label, register, options, width = 'w-full
                         bg-transparent bg-clip-padding
                         border border-solid border-white
                         rounded-sm
-                        transition
+                        transition-all duration:300 ease-linear
                         ease-in-out
                         m-0
                         focus:text-black focus:bg-white focus:border-yellow focus:outline-none"

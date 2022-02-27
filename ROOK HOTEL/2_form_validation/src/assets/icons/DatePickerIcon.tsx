@@ -1,7 +1,13 @@
+import SvgIcon, { SvgIconProps } from "@mui/material/SvgIcon";
+
 import { mdiCalendarMonth } from '@mdi/js';
 
-export default function DatePickerIcon() {
+export default function DatePickerIcon({ style }: any) {
     return (
-        <path d={mdiCalendarMonth} />
+        <span className={`${style} ml-2`}>
+            <SvgIcon htmlColor='white'>
+                <path d={mdiCalendarMonth} />
+            </SvgIcon>
+        </span>
     )
 }

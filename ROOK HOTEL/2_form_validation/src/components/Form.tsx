@@ -7,6 +7,7 @@ export function Form({ defaultValues, children, onSubmit }: any) {
     return (
         <form className="flex flex-col items-center space-y-4 bg-blue-200" onSubmit={handleSubmit(onSubmit)}>
             {React.Children.map(children, child => {
+                //TODO: [] decided if we want to keep single exit of multiple exit
                 let result = child
                 //Having a div means that it most likely will contain a styling container
                 //get it's child and create React Elements

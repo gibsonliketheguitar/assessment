@@ -17,8 +17,12 @@ export function Input({ type, name, label, width = 'w-full', register, ...rest }
                         transition
                         ease-in-out
                         m-0
-                        focus:text-black focus:bg-white focus:border-yellow focus:outline-none"
-                id="exampleFormControlInput1"
+                        focus:rounded-md
+                        focus:text-black focus:bg-white focus:border-yellow focus:outline-none
+                        transition-all duration-100 ease-linear
+                        "
+
+                autoComplete="off"
                 {...register(name)}
                 {...rest}
             />
