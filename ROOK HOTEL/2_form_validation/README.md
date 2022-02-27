@@ -10,21 +10,21 @@ image
 ## TODO
 
 [x] Init Config
-[x] Set up Form with React Form
-[ ] Import Button Component from other demo repos
-[x] Handle for styling
 
-[] Input
+- [x] Set up Form with React Form
+- [x] Handle for styling
 
-- [ ] handle layout of
+[x] Input
+
+- [x] divs' children integration with react hook
 - [x] Set border white
 
-[ ] Data Picker
+[x] Data Picker
 
 - [x] get material ui ICON
-- [ ] select library for date picker
+- [x] select library for date picker
 
-[ ] Select Option
+[x] Select Option
 
 - [x] import country list as json
 - [x] implement option select list for country
@@ -33,8 +33,8 @@ image
 
 - [x] Get Color
 - [x] Get Font and Set
-
-[ ] Other
+- [ ] set font Lato font with
+      [ ] Other
 
 - [x] Update Labels
 - [x] Update place holder for long form text
@@ -45,3 +45,7 @@ react
 tailwind
 react-hook-form
 yup validation
+
+## For the future
+
+[ ] Upgrade the date picker or add custom styling

@@ -42,6 +42,7 @@ export function DateSelect({ name, label, width = 'w-full', register, ...rest }:
                     {...register(name)}
                     {...rest}
                 />
+                {/**TODO [ ] Update Airbnb's react-dates or try to integrate with tailwind css */}
                 <DatePicker
                     className="
                     text-left
