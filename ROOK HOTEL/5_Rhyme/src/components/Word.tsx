@@ -1,4 +1,4 @@
-import { IResult } from "../App"
+import { IResult } from "../hook/useFetchRhyme"
 
 export interface IWord extends IResult {
     index: number
