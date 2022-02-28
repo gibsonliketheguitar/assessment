@@ -22,7 +22,7 @@ fetch("/echo/", {
 })
   .then(function (response) {
     server_echo = response.json().echo; //RESPON.json() returns a PROMISE w/ result of parsing response object. There is no echo method on a promise
-    return response.json(); //if you remove echo, still you be trying to "attempting to parse or READ RESPONSE" from an invalid type
+    return response.json();
   })
   .then(function (result) {
     alert(result);
