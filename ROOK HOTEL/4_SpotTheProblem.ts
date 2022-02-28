@@ -66,6 +66,7 @@ async function fetchData(data: { [key: string]: any }): Promise<[]> {
     result = await response.json();
   } catch (error: any) {
     console.log("Request failed", error);
+    result = { error: true, message: error };
   }
   return result;
 }

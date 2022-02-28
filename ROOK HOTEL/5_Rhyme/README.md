@@ -1,22 +1,20 @@
-# Problem 2
+# Problem 5
 
-Using your favorite front end stack please create this design as close to pixel perfect as possible.
-The text in the fields is there as an example, the fields should be blank when the page loads, with the exception of the date picker icon, and the helper text in the text area.
-Because we have not provided you with this specific date picker icon, you can select any free SVG date picker icon you can find.
-The font is here: https://fonts.google.com/specimen/Lato
+Write a small React JS web application that prompts the user to enter a word, and in response provides a list of words that rhyme with that word. To find which words rhyme you may use an API, for example https://www.datamuse.com/api/ or any API of your choice.
 
+Note: If you run into CORS issues you can launch chrome without CORS, and assume that we will do the same when we evaluate your submission.
 image
 
-## TODO
+## Libraries used
 
-[ ] Init Config
-[ ] Set up Form with React Form
-[ ] Get the Color and Font, then set
-[ ] Create Input Component
-[ ] Import Button Component from other demo repos
-[ ] Set up Validation
-[ ] Implement Data Picker
+- material ui
+- SWR
+- TailwindCSS
+- React
 
-- [ ] get material ui ICON
-- [ ] select library for date picker
-- [ ] implement option select list for country
+## Install and set Up
+
+```
+    yarn install
+    yarn star
+```

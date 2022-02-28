@@ -7,6 +7,13 @@ The font is here: https://fonts.google.com/specimen/Lato
 
 image
 
+## Setup And Install
+
+```
+      yarn install
+      yarn start
+```
+
 ## TODO
 
 [x] Init Config
