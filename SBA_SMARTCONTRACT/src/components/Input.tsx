@@ -5,6 +5,7 @@ export default function Input({
     width = 'w-full',
     height = 'h-full',
     value,
+    setValue
 }: any) {
     const hasLabel = label?.length === 0 ? 'hidden' : ''
     return (
@@ -32,6 +33,7 @@ export default function Input({
                         "
                 autoComplete="off"
                 value={value}
+                onChange={(e: any) => setValue(e.target.value)}
             />
         </div>
     )
