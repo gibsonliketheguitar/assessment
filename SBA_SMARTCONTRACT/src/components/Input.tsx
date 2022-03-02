@@ -33,7 +33,7 @@ export default function Input({
                         "
                 autoComplete="off"
                 value={value}
-                onChange={(e: any) => setValue(e.target.value)}
+                onChange={(e: any) => setValue?.(e.target.value)}
             />
         </div>
     )
